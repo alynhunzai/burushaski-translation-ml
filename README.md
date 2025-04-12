@@ -83,7 +83,7 @@ This repository hosts a complete **Neural Machine Translation (NMT)** pipeline f
 
 ```bash
 # Clone repo and setup env
-git clone https://github.com/your-username/burushaski-translation-ml.git
+git clone https://github.com/alynhunzai/burushaski-translation-ml.git
 cd burushaski-translation-ml
 pip install -r requirements.txt
 
@@ -148,5 +148,4 @@ MIT License © Noor Ali, 2025
 
 ## 🌐 Connect
 
-Feel free to connect with me on [LinkedIn](https://linkedin.com/in/your-profile) or check out my other projects [here](https://github.com/your-username).
-
+Feel free to connect with me on [LinkedIn](https://linkedin.com/in/alynhunz).
