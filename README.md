@@ -1,8 +1,3 @@
-Absolutely! Here's a professional, well-structured `README.md` for your **Burushaski-English Translation ML Project**, tailored for your GitHub portfolio and aligned with MLOps/ML Engineer best practices:
-
----
-
-```markdown
 # 🔤 Burushaski ↔ English Neural Machine Translation (NMT)
 
 ![License](https://img.shields.io/badge/license-MIT-green)
@@ -154,5 +149,4 @@ MIT License © Noor Ali, 2025
 ## 🌐 Connect
 
 Feel free to connect with me on [LinkedIn](https://linkedin.com/in/your-profile) or check out my other projects [here](https://github.com/your-username).
-```
 
