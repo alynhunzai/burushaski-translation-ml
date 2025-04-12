@@ -1,3 +1,8 @@
+Absolutely! Here's a professional, well-structured `README.md` for your **Burushaski-English Translation ML Project**, tailored for your GitHub portfolio and aligned with MLOps/ML Engineer best practices:
+
+---
+
+```markdown
 # 🔤 Burushaski ↔ English Neural Machine Translation (NMT)
 
 ![License](https://img.shields.io/badge/license-MIT-green)
@@ -47,3 +52,107 @@ This repository hosts a complete **Neural Machine Translation (NMT)** pipeline f
 ├── .github/workflows/      # GitHub Actions for CI/CD
 ├── README.md
 └── LICENSE
+```
+
+---
+
+## 🛠️ Models Used
+
+### 1. 🔧 From-Scratch Model (Baseline)
+- Architecture: Encoder-Decoder with Attention
+- Framework: PyTorch
+- Tokenization: Word + BPE
+- Evaluation: BLEU, TER
+
+### 2. 🧠 Fine-Tuned Model (Transformer-Based)
+- Base: `Helsinki-NLP/opus-mt-en-ROMANCE` and others
+- Framework: Hugging Face Transformers
+- Training: PyTorch Lightning or 🤗 Trainer
+- Features: Transfer learning, early stopping, mixed precision
+
+---
+
+## 🧪 Reproducibility Stack
+
+| Tool | Purpose |
+|------|---------|
+| ✅ **DVC** | Dataset and model versioning |
+| ✅ **MLflow** | Experiment tracking and evaluation |
+| ✅ **Docker** | Environment consistency |
+| ✅ **GitHub Actions** | CI/CD for tests, linting, and deployment |
+| ✅ **FastAPI** | Inference API for the translation model |
+
+---
+
+## 📦 Installation
+
+```bash
+# Clone repo and setup env
+git clone https://github.com/your-username/burushaski-translation-ml.git
+cd burushaski-translation-ml
+pip install -r requirements.txt
+
+# Run a training pipeline (with DVC)
+dvc repro
+
+# Or launch the FastAPI server
+uvicorn src.api.main:app --reload
+```
+
+---
+
+## 📊 Evaluation Metrics
+
+| Metric | Purpose |
+|--------|---------|
+| BLEU | Measures translation quality |
+| ROUGE | Measures text overlap (optional) |
+| TER | Measures edit distance from reference |
+| Human Evaluation | Manual grading by native speakers |
+
+---
+
+## 🚀 Deployment
+
+- 🐳 Docker-ready container with exposed `/translate` API endpoint
+- Optionally deployable on:
+  - 🌥️ AWS Lambda + API Gateway
+  - 🚀 Hugging Face Spaces or Streamlit Sharing
+
+---
+
+## 🗂️ Dataset Details
+
+| Source | Domain | Size |
+|--------|--------|------|
+| Manually curated (Hunza + Nagar dialects) | General domain | 1K–5K+ sentence pairs (growing) |
+| Additional community-contributed corpora | TBD | ✅ Open source under CC-BY-SA |
+
+---
+
+## 🧑‍💻 Contributors
+
+- **Noor Ali** 
+- Open to contributors (especially native speakers, linguists, and ML engineers)
+
+---
+
+## 📜 License
+
+MIT License © Noor Ali, 2025
+
+---
+
+## 📌 Acknowledgements
+
+- Native Burushaski speakers and elders
+- Hugging Face 🤗 for pre-trained models and tokenizers
+- DeepLearning.AI and DataCamp for foundational knowledge
+
+---
+
+## 🌐 Connect
+
+Feel free to connect with me on [LinkedIn](https://linkedin.com/in/your-profile) or check out my other projects [here](https://github.com/your-username).
+```
+
