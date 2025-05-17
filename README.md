@@ -127,7 +127,7 @@ uvicorn src.api.main:app --reload
 
 ## 🧑‍💻 Contributors
 
-- **Noor Ali** 
+- **Noor Ali** -- ML/MLOps
 - Open to contributors (especially native speakers, linguists, and ML engineers)
 
 ---
