@@ -121,7 +121,7 @@ uvicorn src.api.main:app --reload
 | Source | Domain | Size |
 |--------|--------|------|
 | Manually curated (Hunza + Nagar dialects) | General domain | 1K–5K+ sentence pairs (growing) |
-| Additional community-contributed corpora | TBD | ✅ Open source under CC-BY-SA |
+| Additional [community-contributed](https://github.com/alynhunzai/burushaski-data-collection-app) corpora | General domain | ✅ Open source under CC-BY-SA |
 
 ---
 
