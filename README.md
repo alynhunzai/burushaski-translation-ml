@@ -7,7 +7,7 @@
 
 ## 🧠 Project Overview
 
-This repository hosts a complete **Neural Machine Translation (NMT)** pipeline for the **Burushaski ↔ English** language pair — a unique translation challenge involving a **language isolate** with low-resource status. The goal is to both preserve and promote Burushaski (Hunza & Nagar dialects) through modern NLP and MLOps techniques.
+This repository is going to host a complete **Neural Machine Translation (NMT)** pipeline for the **Burushaski ↔ English** language pair — a unique translation challenge involving a **language isolate** with low-resource status. The goal is to both preserve and promote Burushaski (Hunza & Nagar dialects) through modern NLP and MLOps techniques.
 
 ✅ The project is structured to include:
 - End-to-end pipelines for **data collection, cleaning, training, evaluation, and deployment**
