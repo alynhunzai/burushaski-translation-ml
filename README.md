@@ -31,7 +31,7 @@ This repository is going to host a complete **Neural Machine Translation (NMT)**
 
 ```bash
 .
-├── data/                    # Raw and processed Burushaski-English datasets
+├── data/                    # Raw and processed Burushaski-English datasets. Managed and tracked with DVC. Ignored by git.
 │   ├── hunza/
 │   └── nagar/
 ├── notebooks/              # Jupyter notebooks for EDA, training, and eval
