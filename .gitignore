@@ -1,0 +1,40 @@
+# ---------------------------------------------------
+# Datasets and DVC
+# ---------------------------------------------------
+/data/
+# Note: DVC will automatically generate .gitignore rules 
+# inside the data/ folder to ignore the raw files while 
+# allowing Git to track the .dvc metadata files.
+
+# ---------------------------------------------------
+# Experiment Tracking
+# ---------------------------------------------------
+/mlruns/
+
+# ---------------------------------------------------
+# Secrets and Configuration
+# ---------------------------------------------------
+.env
+# Ignore local config overrides (optional, but good practice)
+configs/local_*.yaml
+
+# ---------------------------------------------------
+# Python & Environments
+# ---------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+/venv/
+/.venv/
+/env/
+
+# ---------------------------------------------------
+# Jupyter Notebooks
+# ---------------------------------------------------
+.ipynb_checkpoints/
+
+# ---------------------------------------------------
+# OS Generated Files
+# ---------------------------------------------------
+.DS_Store
+Thumbs.db
